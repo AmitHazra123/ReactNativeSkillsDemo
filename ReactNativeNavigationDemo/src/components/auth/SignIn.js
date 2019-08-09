@@ -7,6 +7,7 @@ import {
   TouchableHighlight,
   TouchableOpacity,
   AsyncStorage
+  //StatusBar
 } from 'react-native';
 import IconOptions from '../common/IconOptions';
 
@@ -19,6 +20,7 @@ export default class SignIn extends Component {
   render() {
     return (
       <View style={styles.container}>
+        {/* {<StatusBar hidden />} */}
         <View>
           <TouchableOpacity
             onPress={() => this.props.navigation.toggleDrawer()}
